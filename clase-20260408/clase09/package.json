@@ -1,10 +1,10 @@
 {
-  "name": "clasehoy",
+  "name": "clase09",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
-    "dev": "node index.mjs",
+    "dev ": "node index.mjs",
     "leerApi":"node leerApi.mjs",
     "escribirApi":"node escribirApi.mjs"
   },

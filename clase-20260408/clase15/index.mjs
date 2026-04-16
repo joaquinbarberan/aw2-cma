@@ -47,9 +47,8 @@ const app = http.createServer(async(peticion, respuesta)=>{//-> esta funcion se 
     }
         //fallback
         respuesta.statusCode = 404
-        respuesta.end('recurso no encontrado')
-       //respuesta.end('hola servidor') //->siempre en ultimo lugar ->no se puede ejecuta dos veces
-})
+        respuesta.end('recurso no encontrado')   
+    })
 
 app.listen(3000,()=>{
     console.log('servidor corriendo en http://localhost:3000')
